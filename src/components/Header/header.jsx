@@ -5,9 +5,9 @@ function Header() {
         <section className="header">
             <img src="/images/logo.svg" alt="logo" />
             <div className="header__menu">
-                <button className="header__menu-button">Home</button>
-                <button className="header__menu-button">Latest</button>
-                <button className="header__menu-button">About</button>
+                <a href='' className="header__menu-link">Home</a>
+                <a href='' className="header__menu-link">Latest</a>
+                <a href='' className="header__menu-link">About</a>
             </div>
 
         </section>
