@@ -9,7 +9,7 @@ function Header() {
                 <a href='' className="header__menu-link">Latest</a>
                 <a href='' className="header__menu-link">About</a>
             </div>
-
+            <div className="header__rectangle"></div>
         </section>
     );
 }

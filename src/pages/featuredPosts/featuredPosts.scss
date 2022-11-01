@@ -1,0 +1,14 @@
+.featuredPosts {
+    margin: 90px auto;
+
+    
+    &__flex {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+.card-title {
+    font-size: 1rem;
+}
