@@ -5,3 +5,14 @@
         width: 590px;
     }
 }
+
+@media screen and (max-width: 390px) {
+    .featuredPostCard {
+        width: 100%;
+        font-size: 7.8px;
+        
+        &__img {
+            width: 100%;
+        }
+    }
+}

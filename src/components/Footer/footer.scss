@@ -43,7 +43,7 @@ footer {
 
         & p {
             font-weight: 400;
-            font-size: 1.4rem;
+            font-size: 1.4em;
             line-height: 24px;
             color: #FFFFFF;
         }
@@ -59,7 +59,6 @@ footer {
 }
 
 .categories {
-
     &__title {
         font-weight: 400;
         line-height: 12px;
@@ -73,7 +72,7 @@ footer {
 
         &-items {
             font-weight: 400;
-            font-size: 1.4rem;
+            font-size: 1.4em;
             line-height: 24px;
             color: #FFFFFF;
             margin-right: 100px;
@@ -82,7 +81,6 @@ footer {
 }
 
 .form {
-
     &__title {
         font-weight: 400;
         line-height: 12px;
@@ -123,6 +121,73 @@ footer {
             text-transform: uppercase;
             color: #FFFFFF;
             position: absolute;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .footer {
+        font-size: 8px;
+        padding: 10px 5px;
+    
+        &__title {
+            display: flex;
+        }
+    
+        &__splitter {
+            margin: 5px auto;
+            width: 374px;
+            left: 8px;
+            position: absolute;
+        }
+    
+        &__items {
+            display: block;
+        }
+    
+        &__points {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 10px;
+    
+            & div:first-child {
+                margin: 0px;
+            }
+            
+            & div {
+                margin: 0px;
+            }
+        }
+    }
+    
+    .categories {
+            &__blocks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+            &-items {
+                margin-right: 10px;
+            }
+        }
+    }
+    
+    .form {
+        &__input { 
+            position: relative;
+            display: block;
+            margin: 0 auto;
+
+            &-input{
+                height: 28px;
+                padding: 0 14px;
+            }
+    
+            &-button {
+                height: 30px;
+                width: 69px;
+            }
         }
     }
 }

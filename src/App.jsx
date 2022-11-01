@@ -9,12 +9,12 @@ import Main from './pages/Main/main';
 function App() {
 	return (
         <>
-		<Header />
-        <Main />
-        <FirstBlock />
-        <LatestPosts />
-        <FeaturedPosts />
-		<Footer />
+            <Header />
+            <Main />
+            <FirstBlock />
+            <LatestPosts/>
+            <FeaturedPosts />
+            <Footer />
         </>
     );
 }

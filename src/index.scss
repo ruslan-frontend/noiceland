@@ -1,5 +1,6 @@
 html {
     font-size: 10px;
+    line-height: 10px;
     font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -11,7 +12,6 @@ section {
 
 .block-title {
     font-weight: 400;
-    font-size: 1rem;
     line-height: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -43,11 +43,11 @@ section {
 }
 
 #big {
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 #small {
-    font-size: 1.8rem;
+    font-size: 1.8em;
 }
 
 .rectangle {
@@ -57,4 +57,10 @@ section {
     background: #E6E6E6;
     border-radius: 0px;
     margin: 90px 0;
+}
+
+@media screen and (max-width: 390px) {
+    .rectangle {
+        margin: 45px 0;
+    }
 }

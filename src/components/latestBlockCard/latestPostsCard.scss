@@ -5,3 +5,14 @@
         width: 285px;
     }
 }
+
+@media screen and (max-width: 390px) {
+    .latestPostCard {
+        width: 100%;
+        font-size: 7.8px;
+
+        &__img {
+            width: 100%;
+        }
+    }
+}

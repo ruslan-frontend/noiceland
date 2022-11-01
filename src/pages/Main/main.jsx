@@ -11,6 +11,7 @@ function Main() {
                 <p className="main__block-description">Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id eum, ferri novum molestie eos cu.</p>
                 <p className="author">By Reta Torphy</p>
             </div>
+            <div className="rectangle"></div>
         </section>
     );
 }

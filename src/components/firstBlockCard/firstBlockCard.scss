@@ -2,3 +2,13 @@
     width: 386px;
     font-size: 10px;
 }
+
+@media screen and (max-width: 390px) {
+    .firstBlockCard {
+        font-size: 7px;
+        
+        &__img {
+            width: 100%;
+        }
+    }
+}
