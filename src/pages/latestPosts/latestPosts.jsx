@@ -1,11 +1,11 @@
-import LatestPostsCard from "../../components/secondBlockCard/latestPostsCard";
+import LatestPostsCard from "../../components/latestBlockCard/latestPostsCard";
 import './latestPosts.scss';
 
 function LatestPosts() {
 	return (
         <section className="latestPosts">
             <div className="rectangle"></div>
-            <h3 className="latestPosts__title card-title">LATEST POSTS</h3>
+            <h3 className="block-title">LATEST POSTS</h3>
             <div className="latestPosts__flex">
                 <LatestPostsCard 
                 img = {'/images/main.png'}

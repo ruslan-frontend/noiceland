@@ -5,7 +5,7 @@ function FeaturedPosts() {
 	return (
         <section className="featuredPosts">
             <div className="rectangle"></div>
-            <h3 className="featuredPosts__title card-title">featured POSTS</h3>
+            <h3 className="block-title">featured POSTS</h3>
             <div className="featuredPosts__flex">
                 <FeaturedPostsCard 
                 img = {'/images/cards/fp1.png'}
