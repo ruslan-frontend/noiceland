@@ -1,7 +1,20 @@
 .firstBlockCard {
     width: 386px;
     font-size: 10px;
+
+    &_medium {
+
+    }
+
+    &_small {
+
+    }
+
+    &_large {
+        
+    }
 }
+
 
 @media screen and (max-width: 390px) {
     .firstBlockCard {

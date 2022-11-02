@@ -5,6 +5,7 @@ function FirstBlock() {
 	return (
         <section className="firstBlock">
             <FirstBlockCard 
+            size = {'small'}
             img = {'/images/cards/1.png'}
             point = {'Photography'} 
             title = {'Helmut Lang celebrates taxi drivers worldwide in latest campaign'}

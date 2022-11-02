@@ -1,8 +1,8 @@
 import './firstBlockCard.scss';
 
-function FirstBlockCard( { img, point, title, author } ) {
+function FirstBlockCard( { img, point, title, author, size = 'medium' } ) {
 	return (
-        <div className="firstBlockCard">
+        <div className={`firstBlockCard firstBlockCard_${size}`}>
             <img src={img} alt="" className="firstBlockCard__img" />
             <h3 className="point">{point}</h3>
             <h2 className="card-title" id='big'>{title}</h2>
